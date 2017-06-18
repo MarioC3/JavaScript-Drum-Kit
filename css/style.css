@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Raleway;
+  color: #3066BE;
+}
+
+.general-wrapper {
+  height: 100vh;
+}
+
+h1 {
+  padding: 50px 0 50px 0;
+  color: #3066BE;
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 15px;
+  font-size: 40px;
+}
+
+.key-wrapper {
+  border: solid 1px #3066BE;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.keys {
+  width: 100%;
+  display: flex;
+}
+
+.key {
+  transition: all .07s ease;
+  margin: 5px;
+  width: 20%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+kbd {
+  color: #3066BE;
+  font-family: Raleway;
+  font-size: 20px;
+}
+
+.playing kbd {
+  transform: scale(3);
+  color: #F17300;
+  font-weight: 900;
+}
+
+.text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #F17300;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logos {
+  width: 30px;
+}
+
+footer h3 {
+  margin-bottom: 5px;
+  font-weight: 200;
+  font-size: 16px;
+}
